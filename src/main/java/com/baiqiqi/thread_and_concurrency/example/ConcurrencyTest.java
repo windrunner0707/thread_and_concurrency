@@ -1,6 +1,6 @@
 package com.baiqiqi.thread_and_concurrency.example;
 
-import com.baiqiqi.thread_and_concurrency.annoations.NotThreadSafe;
+import com.baiqiqi.thread_and_concurrency.annotations.NotThreadSafe;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.concurrent.CountDownLatch;
