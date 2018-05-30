@@ -11,6 +11,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * 定时线程池
+ * ScheduledThreadPoolExecutor比Timer更灵活,功能更强大
  */
 @Slf4j
 public class ThreadPoolExample4 {

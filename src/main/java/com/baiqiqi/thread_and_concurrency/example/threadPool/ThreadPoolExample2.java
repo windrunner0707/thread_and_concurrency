@@ -8,6 +8,8 @@ import java.util.concurrent.Executors;
 /**
  * 定值线程池,只有3个线程执行
  * 匿名内部类写法
+ * FixedThreadPool适用于为了满足资源管理的需求,而需要限制当前线程数量的应用场
+ * 景,它适用于负载比较重的服务器。
  */
 @Slf4j
 public class ThreadPoolExample2 {

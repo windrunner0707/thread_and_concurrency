@@ -8,6 +8,8 @@ import java.util.concurrent.Executors;
 /**
  * 缓存线程池
  * lambda表达式写法
+ * CachedThreadPool是大小无界的线程池,适用于执行很多的短期异步任务的小程序,或者
+ * 是负载较轻的服务器。
  */
 @Slf4j
 public class ThreadPoolExample1 {

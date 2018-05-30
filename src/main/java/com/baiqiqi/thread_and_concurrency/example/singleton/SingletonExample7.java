@@ -23,8 +23,7 @@ public class SingletonExample7 {
 
         private SingletonExample7 singleton;
 
-        //枚举类的构造函数无需修饰
-        private Singleton(){
+        Singleton(){
             singleton = new SingletonExample7();
         }
 

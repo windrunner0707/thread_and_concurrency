@@ -7,6 +7,8 @@ import java.util.concurrent.Executors;
 
 /**
  * 单线程线程池
+ * SingleThreadExecutor适用于需要保证顺序地执行各个任务;并且在任意时间点,不会有多
+ * 个线程是活动的应用场景。
  */
 @Slf4j
 public class ThreadPoolExample3 {
