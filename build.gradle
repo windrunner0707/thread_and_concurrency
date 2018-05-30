@@ -28,6 +28,7 @@ repositories {
 
 
 dependencies {
+    compile group: 'com.google.guava', name: 'guava', version: '25.1-jre'
     compile("org.projectlombok:lombok:1.16.20")
     compile('org.springframework.boot:spring-boot-starter-web')
     testCompile('org.springframework.boot:spring-boot-starter-test')
